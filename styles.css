@@ -1,0 +1,152 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+section{
+    width:100%;
+    height: 100vh;
+}
+#home{
+    background-color: #fff;
+}
+#testimonials{
+    width:100%;
+    height: 30vh;
+    background-color: #361683;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding:50px 200px;
+    position: sticky;
+    
+}
+
+
+.links a{
+    color:#000;
+   font-size: 24px;
+    text-decoration: none;
+    margin: 20px;
+}
+.links a:hover{
+    color:#4544ff;
+}
+#getStarted{
+    background-color: transparent;
+    color:#000;
+    border: 1px solid #000;
+    padding:13px 25px;
+    border-radius: 23px;
+    font-size: 17px;
+}
+#getStarted:hover{
+    background-color: #4544ff;
+    color:#fff;
+    border: none;
+    cursor:pointer;
+}
+.midSection{
+    display: flex;
+}
+.left{
+    padding:130px 200px;
+}
+.left h3{
+    font-size: 5rem;
+    line-height: 90px;
+    font-weight: 800;
+}
+#description{
+    font-size: 24px;
+    line-height:30px;
+}
+.buttons{
+    padding:20px 0;
+    
+}
+#explore , #try{
+    padding:14px 25px;
+    border-radius: 7px;
+   font-size: 18px;
+   margin: 5px;
+   cursor: pointer;
+}
+#try{
+    background-color:#4544ff;
+    color:#fff;
+    border:none;
+}
+#explore{
+    background-color:transparent;
+    border: 1.5px solid #4544ff;
+    color: #4544ff;
+}
+.right img{
+    width:100%;
+    height:70vh;
+}
+.all{
+    padding:200px 0;
+}
+.topDescription{
+    padding:40px 0;
+}
+#whatWeDo , #heading{
+    text-align: center;
+}
+#heading{
+    font-size: 40px;
+    color:#252525;
+}
+.cards{
+    display: flex;
+    text-align: center;
+   justify-content: space-evenly;
+}
+#typeOfService{
+    font-size: 24px;
+}
+#lorem{
+    font-size: 20px;
+}
+#learnMore{
+    text-decoration: none;
+    color:#4544ff;
+    font-size: 22px;
+    margin-top: 15px;
+}
+.time{
+    padding:50px 50px;
+    display: flex;
+}
+.clock img{
+    height:60vh;
+    width:35%;
+}
+#testimonials{
+    text-align: center;
+    color:#fff;
+}
+.identity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimony{
+    padding:40px 0;
+}
+.photo{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+#name , #position{
+    font-size: 22px;
+    line-height: 20px;
+}
